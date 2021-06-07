@@ -2449,7 +2449,7 @@ CONFIG_PACKAGE_kmod-sched-core=y
 # CONFIG_PACKAGE_kmod-sched-ipset is not set
 # CONFIG_PACKAGE_kmod-sched-mqprio is not set
 # CONFIG_PACKAGE_kmod-sctp is not set
-CONFIG_PACKAGE_kmod-shortcut-fe=n
+CONFIG_PACKAGE_kmod-shortcut-fe=y
 # CONFIG_PACKAGE_kmod-shortcut-fe-cm is not set
 # CONFIG_PACKAGE_kmod-sit is not set
 CONFIG_PACKAGE_kmod-slhc=y
@@ -4739,7 +4739,7 @@ CONFIG_PACKAGE_luci-app-passwall=y
 #
 # Configuration
 #
-CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=n
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook is not set
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Dns2socks=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
@@ -6195,7 +6195,7 @@ CONFIG_PACKAGE_banip=y
 # CONFIG_PACKAGE_boinc is not set
 # CONFIG_PACKAGE_bpftool-full is not set
 # CONFIG_PACKAGE_bpftool-minimal is not set
-CONFIG_PACKAGE_brook=n
+# CONFIG_PACKAGE_brook is not set
 # CONFIG_PACKAGE_bwm-ng is not set
 # CONFIG_PACKAGE_bwping is not set
 # CONFIG_PACKAGE_cdnspeedtest is not set
