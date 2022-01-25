@@ -4059,7 +4059,7 @@ CONFIG_PACKAGE_libopenssl-conf=y
 # CONFIG_PACKAGE_acsccid is not set
 # CONFIG_PACKAGE_alsa-lib is not set
 # CONFIG_PACKAGE_argp-standalone is not set
-# CONFIG_PACKAGE_bind-libs is not set
+CONFIG_PACKAGE_bind-libs=y
 # CONFIG_PACKAGE_bluez-libs is not set
 CONFIG_PACKAGE_boost=y
 # CONFIG_boost-context-exclude is not set
@@ -4366,7 +4366,7 @@ CONFIG_PACKAGE_libnettle=y
 # CONFIG_PACKAGE_libnewt is not set
 CONFIG_PACKAGE_libnfnetlink=y
 # CONFIG_PACKAGE_libnftnl is not set
-# CONFIG_PACKAGE_libnghttp2 is not set
+CONFIG_PACKAGE_libnghttp2=y
 # CONFIG_PACKAGE_libnl is not set
 # CONFIG_PACKAGE_libnl-core is not set
 # CONFIG_PACKAGE_libnl-genl is not set
@@ -5422,15 +5422,15 @@ CONFIG_PACKAGE_miniupnpd=y
 # CONFIG_PACKAGE_avahi-dnsconfd is not set
 # CONFIG_PACKAGE_avahi-nodbus-daemon is not set
 # CONFIG_PACKAGE_avahi-utils is not set
-# CONFIG_PACKAGE_bind-check is not set
+CONFIG_PACKAGE_bind-check=y
 # CONFIG_PACKAGE_bind-client is not set
-# CONFIG_PACKAGE_bind-dig is not set
-# CONFIG_PACKAGE_bind-dnssec is not set
-# CONFIG_PACKAGE_bind-host is not set
-# CONFIG_PACKAGE_bind-nslookup is not set
-# CONFIG_PACKAGE_bind-rndc is not set
+CONFIG_PACKAGE_bind-dig=y
+CONFIG_PACKAGE_bind-dnssec=y
+CONFIG_PACKAGE_bind-host=y
+CONFIG_PACKAGE_bind-nslookup=y
+CONFIG_PACKAGE_bind-rndc=y
 # CONFIG_PACKAGE_bind-server is not set
-# CONFIG_PACKAGE_bind-tools is not set
+CONFIG_PACKAGE_bind-tools=y
 CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_ddns-scripts=y
 CONFIG_PACKAGE_ddns-scripts_aliyun=y
@@ -7081,8 +7081,8 @@ CONFIG_PACKAGE_jshn=y
 # CONFIG_PACKAGE_lcdproc-clients is not set
 # CONFIG_PACKAGE_lcdproc-drivers is not set
 # CONFIG_PACKAGE_lcdproc-server is not set
-# CONFIG_PACKAGE_less is not set
-# CONFIG_PACKAGE_less-wide is not set
+CONFIG_PACKAGE_less=y
+CONFIG_PACKAGE_less-wide=y
 CONFIG_PACKAGE_libjson-script=y
 CONFIG_PACKAGE_libnetwork=y
 # CONFIG_PACKAGE_libxml2-utils is not set
@@ -7092,9 +7092,9 @@ CONFIG_PACKAGE_lm-sensors=y
 # CONFIG_PACKAGE_logrotate is not set
 # CONFIG_PACKAGE_look is not set
 # CONFIG_PACKAGE_losetup is not set
-# CONFIG_PACKAGE_lrzsz is not set
+CONFIG_PACKAGE_lrzsz=y
 # CONFIG_PACKAGE_lscpu is not set
-# CONFIG_PACKAGE_lsof is not set
+CONFIG_PACKAGE_lsof=y
 # CONFIG_PACKAGE_lxc is not set
 # CONFIG_PACKAGE_maccalc is not set
 # CONFIG_PACKAGE_macchanger is not set
