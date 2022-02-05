@@ -6368,7 +6368,7 @@ CONFIG_PACKAGE_gre=y
 # CONFIG_PACKAGE_hnetd-openssl is not set
 # CONFIG_PACKAGE_httping is not set
 # CONFIG_PACKAGE_httping-nossl is not set
-CONFIG_PACKAGE_https-dns-proxy=y
+# CONFIG_PACKAGE_https-dns-proxy is not set
 # CONFIG_PACKAGE_hysteria is not set
 # CONFIG_HYSTERIA_COMPRESS_GOPROXY is not set
 # CONFIG_HYSTERIA_COMPRESS_UPX is not set
