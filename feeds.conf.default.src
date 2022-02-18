@@ -7,11 +7,12 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 
-src-git jerryk https://github.com/jerrykuku/openwrt-package
-src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
-src-git helloworld https://github.com/fw876/helloworld.git
-src-git bypass https://github.com/kiddin9/openwrt-bypass
 
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
 
+
+src-git jerryk https://github.com/jerrykuku/openwrt-package
+src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+src-git helloworld https://github.com/fw876/helloworld.git
+src-git bypass https://github.com/kiddin9/openwrt-bypass
