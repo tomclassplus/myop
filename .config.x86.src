@@ -4288,10 +4288,10 @@ CONFIG_PACKAGE_libelf=y
 CONFIG_PACKAGE_libev=y
 CONFIG_PACKAGE_libevdev=y
 CONFIG_PACKAGE_libevent2=y
-# CONFIG_PACKAGE_libevent2-core is not set
+CONFIG_PACKAGE_libevent2-core=y
 # CONFIG_PACKAGE_libevent2-extra is not set
 # CONFIG_PACKAGE_libevent2-openssl is not set
-# CONFIG_PACKAGE_libevent2-pthreads is not set
+CONFIG_PACKAGE_libevent2-pthreads=y
 # CONFIG_PACKAGE_libexif is not set
 # CONFIG_PACKAGE_libexpat is not set
 # CONFIG_PACKAGE_libexslt is not set
@@ -4751,8 +4751,8 @@ CONFIG_PACKAGE_luci-app-diskman_INCLUDE_kmod_md_linear=y
 # CONFIG_PACKAGE_luci-app-dnscrypt-proxy is not set
 # CONFIG_PACKAGE_luci-app-dnsfilter is not set
 # CONFIG_PACKAGE_luci-app-dnsforwarder is not set
-CONFIG_PACKAGE_luci-app-docker=y
-CONFIG_PACKAGE_luci-app-dockerman=y
+# CONFIG_PACKAGE_luci-app-docker is not set
+# CONFIG_PACKAGE_luci-app-dockerman is not set
 # CONFIG_PACKAGE_luci-app-dump1090 is not set
 # CONFIG_PACKAGE_luci-app-dynapoint is not set
 # CONFIG_PACKAGE_luci-app-e2guardian is not set
@@ -5012,8 +5012,6 @@ CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-bonding-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-bypass-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-filetransfer-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-firewall-ca is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-cs is not set
@@ -5851,11 +5849,11 @@ CONFIG_PACKAGE_openssh-sftp-server=y
 # CONFIG_PACKAGE_chrony-nts is not set
 # CONFIG_PACKAGE_htpdate is not set
 # CONFIG_PACKAGE_linuxptp is not set
-# CONFIG_PACKAGE_ntp-keygen is not set
-# CONFIG_PACKAGE_ntp-utils is not set
+CONFIG_PACKAGE_ntp-keygen=y
+CONFIG_PACKAGE_ntp-utils=y
 CONFIG_PACKAGE_ntpclient=y
-# CONFIG_PACKAGE_ntpd is not set
-# CONFIG_PACKAGE_ntpdate is not set
+CONFIG_PACKAGE_ntpd=y
+CONFIG_PACKAGE_ntpdate=y
 # end of Time Synchronization
 
 #
@@ -6148,13 +6146,13 @@ CONFIG_PACKAGE_iftop=y
 # CONFIG_PACKAGE_iiod is not set
 CONFIG_PACKAGE_iperf=y
 CONFIG_IPERF_ENABLE_MULTICAST=y
-# CONFIG_PACKAGE_iperf3 is not set
+CONFIG_PACKAGE_iperf3=y
 # CONFIG_PACKAGE_iperf3-ssl is not set
 # CONFIG_PACKAGE_ipip is not set
 CONFIG_PACKAGE_ipset=y
 # CONFIG_PACKAGE_ipset-dns is not set
 CONFIG_PACKAGE_ipt2socks=y
-# CONFIG_PACKAGE_iptraf-ng is not set
+CONFIG_PACKAGE_iptraf-ng=y
 CONFIG_PACKAGE_iputils-arping=y
 CONFIG_PACKAGE_iputils-clockdiff=y
 CONFIG_PACKAGE_iputils-ping=y
@@ -6164,7 +6162,7 @@ CONFIG_TRACEPATH_LEGACY_SYMLINKS=y
 # CONFIG_PACKAGE_ipvsadm is not set
 # CONFIG_PACKAGE_irtt is not set
 # CONFIG_PACKAGE_iw is not set
-# CONFIG_PACKAGE_iw-full is not set
+CONFIG_PACKAGE_iw-full=y
 # CONFIG_PACKAGE_jool-tools-netfilter is not set
 # CONFIG_PACKAGE_keepalived is not set
 # CONFIG_PACKAGE_knxd is not set
@@ -6205,7 +6203,7 @@ CONFIG_PACKAGE_libipset=y
 # CONFIG_PACKAGE_ndptool is not set
 # CONFIG_PACKAGE_nebula is not set
 # CONFIG_PACKAGE_nebula-cert is not set
-# CONFIG_PACKAGE_net-tools-route is not set
+CONFIG_PACKAGE_net-tools-route=y
 CONFIG_PACKAGE_netcat=y
 # CONFIG_PACKAGE_netdiscover is not set
 # CONFIG_PACKAGE_netifyd is not set
@@ -6935,28 +6933,9 @@ CONFIG_PACKAGE_coreutils-nohup=y
 # CONFIG_PACKAGE_digitemp-usb is not set
 CONFIG_PACKAGE_dmesg=y
 # CONFIG_PACKAGE_dmidecode is not set
-CONFIG_PACKAGE_docker=y
-CONFIG_PACKAGE_docker-compose=y
-CONFIG_PACKAGE_dockerd=y
-CONFIG_DOCKER_CGROUP_OPTIONS=y
-CONFIG_DOCKER_OPTIONAL_FEATURES=y
-
-#
-# Network
-#
-CONFIG_DOCKER_NET_OVERLAY=y
-CONFIG_DOCKER_NET_ENCRYPT=y
-CONFIG_DOCKER_NET_MACVLAN=y
-CONFIG_DOCKER_NET_TFTP=y
-# end of Network
-
-#
-# Storage
-#
-CONFIG_DOCKER_STO_EXT4=y
-CONFIG_DOCKER_STO_BTRFS=y
-# end of Storage
-
+# CONFIG_PACKAGE_docker is not set
+# CONFIG_PACKAGE_docker-compose is not set
+# CONFIG_PACKAGE_dockerd is not set
 # CONFIG_PACKAGE_dropbearconvert is not set
 # CONFIG_PACKAGE_dtc is not set
 # CONFIG_PACKAGE_dumb-init is not set
