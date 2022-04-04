@@ -2851,6 +2851,7 @@ CONFIG_PACKAGE_kmod-fb-sys-ram=y
 # CONFIG_PACKAGE_kmod-ath10k-ct-smallbuffers is not set
 # CONFIG_PACKAGE_kmod-ath10k-smallbuffers is not set
 # CONFIG_PACKAGE_kmod-ath11k is not set
+# CONFIG_PACKAGE_kmod-ath11k-pci is not set
 # CONFIG_PACKAGE_kmod-ath5k is not set
 # CONFIG_PACKAGE_kmod-ath6kl-sdio is not set
 # CONFIG_PACKAGE_kmod-ath6kl-usb is not set
@@ -2895,6 +2896,8 @@ CONFIG_PACKAGE_kmod-fb-sys-ram=y
 # CONFIG_PACKAGE_kmod-mt76x2u is not set
 # CONFIG_PACKAGE_kmod-mt7915e is not set
 # CONFIG_PACKAGE_kmod-mt7921e is not set
+# CONFIG_PACKAGE_kmod-mt7921s is not set
+# CONFIG_PACKAGE_kmod-mt7921u is not set
 # CONFIG_PACKAGE_kmod-mwifiex-pcie is not set
 # CONFIG_PACKAGE_kmod-mwifiex-sdio is not set
 # CONFIG_PACKAGE_kmod-mwl8k is not set
@@ -4715,6 +4718,7 @@ CONFIG_PACKAGE_luci-app-advanced-reboot=y
 # CONFIG_PACKAGE_luci-app-ahcp is not set
 # CONFIG_PACKAGE_luci-app-airplay2 is not set
 # CONFIG_PACKAGE_luci-app-aliddns is not set
+# CONFIG_PACKAGE_luci-app-aliyundrive-fuse is not set
 # CONFIG_PACKAGE_luci-app-aliyundrive-webdav is not set
 # CONFIG_PACKAGE_luci-app-amule is not set
 # CONFIG_PACKAGE_luci-app-argon-config is not set
@@ -4858,8 +4862,8 @@ CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Server=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Client=y
 # CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Server is not set
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=y
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray is not set
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin=y
-CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Xray=y
 # end of Configuration
 
 # CONFIG_PACKAGE_luci-app-polipo is not set
@@ -4886,6 +4890,7 @@ CONFIG_PACKAGE_luci-app-samba=y
 # CONFIG_PACKAGE_luci-app-siitwizard is not set
 # CONFIG_PACKAGE_luci-app-simple-adblock is not set
 CONFIG_PACKAGE_luci-app-smartdns=y
+# CONFIG_PACKAGE_luci-app-socat is not set
 # CONFIG_PACKAGE_luci-app-softethervpn is not set
 # CONFIG_PACKAGE_luci-app-splash is not set
 # CONFIG_PACKAGE_luci-app-sqm is not set
@@ -4961,6 +4966,7 @@ CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-theme-argonne=y
 CONFIG_PACKAGE_luci-theme-atmaterial_new=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_luci-theme-dog=y
 CONFIG_PACKAGE_luci-theme-edge=y
 CONFIG_PACKAGE_luci-theme-ifit=y
 CONFIG_PACKAGE_luci-theme-material=y
@@ -5251,6 +5257,7 @@ CONFIG_POSTFIX_PCRE=y
 # CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
 # CONFIG_UNBLOCKNETEASEMUSIC_GO_COMPRESS_GOPROXY is not set
 # CONFIG_UNBLOCKNETEASEMUSIC_GO_COMPRESS_UPX is not set
+# CONFIG_PACKAGE_aliyundrive-fuse is not set
 # CONFIG_PACKAGE_aliyundrive-webdav is not set
 # CONFIG_PACKAGE_ffmpeg is not set
 # CONFIG_PACKAGE_ffprobe is not set
@@ -5308,6 +5315,7 @@ CONFIG_POSTFIX_PCRE=y
 #
 # CONFIG_PACKAGE_apfree-wifidog is not set
 # CONFIG_PACKAGE_coova-chilli is not set
+# CONFIG_PACKAGE_mesh11sd is not set
 # CONFIG_PACKAGE_nodogsplash is not set
 # CONFIG_PACKAGE_opennds is not set
 # CONFIG_PACKAGE_wifidog is not set
@@ -5955,6 +5963,7 @@ CONFIG_PACKAGE_brook=y
 # CONFIG_BROOK_COMPRESS_UPX is not set
 # CONFIG_PACKAGE_cgi-io is not set
 # CONFIG_PACKAGE_clamav is not set
+# CONFIG_PACKAGE_cloudflared is not set
 # CONFIG_PACKAGE_ddnsto is not set
 # CONFIG_PACKAGE_e2guardian is not set
 # CONFIG_PACKAGE_etebase is not set
@@ -7096,6 +7105,7 @@ CONFIG_PACKAGE_pciutils=y
 # CONFIG_PACKAGE_pcscd is not set
 # CONFIG_PACKAGE_podman is not set
 # CONFIG_PACKAGE_podman-selinux is not set
+# CONFIG_PACKAGE_poemgr is not set
 # CONFIG_PACKAGE_policycoreutils is not set
 # CONFIG_PACKAGE_powertop is not set
 # CONFIG_PACKAGE_pps-tools is not set
@@ -7121,6 +7131,7 @@ CONFIG_PACKAGE_pciutils=y
 # CONFIG_PACKAGE_rtl-ais is not set
 # CONFIG_PACKAGE_rtl-sdr is not set
 # CONFIG_PACKAGE_rtl_433 is not set
+# CONFIG_PACKAGE_rtl_433-ssl is not set
 CONFIG_PACKAGE_runc=y
 # CONFIG_PACKAGE_sane-backends is not set
 # CONFIG_PACKAGE_sane-daemon is not set
