@@ -18,7 +18,7 @@ src-git jerryk https://github.com/jerrykuku/openwrt-package
 src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages
 
-src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git
+src-git passwall_two https://github.com/xiaorouji/openwrt-passwall2.git
 
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
