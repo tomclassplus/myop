@@ -11,7 +11,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 
 
 src-git helloworld https://github.com/fw876/helloworld.git
-src-git jerryk https://github.com/jerrykuku/openwrt-package
+#src-git jerryk https://github.com/jerrykuku/openwrt-package
 #src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
 #src-git bypass https://github.com/kiddin9/openwrt-bypass
 
@@ -19,6 +19,12 @@ src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages
 
 src-git passwall_two https://github.com/xiaorouji/openwrt-passwall2.git
+
+#src-git sbwml_luciappmosdns https://github.com/sbwml/luci-app-mosdns
+#src-git sbwml_v2raygeodata https://github.com/sbwml/v2ray-geodata
+
+#src-git sbwml_luciappalist https://github.com/sbwml/luci-app-alist
+
 
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
